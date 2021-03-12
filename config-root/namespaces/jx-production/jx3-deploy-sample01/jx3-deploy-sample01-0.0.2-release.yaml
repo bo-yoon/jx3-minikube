@@ -1,0 +1,66 @@
+# Source: jx3-deploy-sample01/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-12T05:17:27Z"
+  deletionTimestamp: null
+  name: 'jx3-deploy-sample01-0.0.2'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.2
+      sha: 5f48aea7d96d9d272382e383f8d97516e6e2cd5b
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: dc58f07cfd4297ad0115c5af27216b029db818cc
+    - author:
+        email: 37345610+bo-yoon@users.noreply.github.com
+        name: bo-yoon
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: Update README.md
+      sha: 5a34aa889d59f1fec19b40d347f752a8e4c71e08
+    - author:
+        email: 37345610+bo-yoon@users.noreply.github.com
+        name: bo-yoon
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: Update README.md
+      sha: 325936a8c099b8609e83e728c9888b7f0c9681de
+    - author:
+        email: 37345610+bo-yoon@users.noreply.github.com
+        name: bo-yoon
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: Update README.md
+      sha: e5268197b5a528e6686702e519559da738afe12c
+  gitHttpUrl: https://github.com/bo-yoon/jx3-deploy-sample01
+  gitOwner: bo-yoon
+  gitRepository: jx3-deploy-sample01
+  name: 'jx3-deploy-sample01'
+  releaseNotesURL: https://github.com/bo-yoon/jx3-deploy-sample01/releases/tag/v0.0.2
+  version: v0.0.2
+status: {}
