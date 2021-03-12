@@ -18,7 +18,7 @@
     - name: bucketrepo
       url: http://bucketrepo-jx.192.168.64.10.nip.io/
     - name: hook
-      url: http://tidy-turtle-49.loca.lt/hook
+      url: http://fuzzy-quail-28.loca.lt/hook
     name: jxboot-helmfile-resources
     repositoryName: jx3
     repositoryUrl: https://storage.googleapis.com/jenkinsxio/charts
