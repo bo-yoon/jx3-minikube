@@ -84,7 +84,7 @@
 		    </tr>
 	    <tr>
 	      <td><a href='' title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> jx3-deploy-sample01 </a></td>
-	      <td>0.0.1</td>
+	      <td>0.0.2</td>
 	      <td><a href='http://jx3-deploy-sample01-jx-staging.192.168.64.10.nip.io'>view</a></td>
 	      <td></td>
 	    </tr>
