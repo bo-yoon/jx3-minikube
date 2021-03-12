@@ -16,4 +16,4 @@ spec:
               serviceName: hook
               servicePort: 80
             path: "/hook"
-      host: moody-octopus-53.loca.lt
+      host: curvy-bobcat-86.loca.lt
