@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: jx3-deploy-sample01
   labels:
-    chart: "jx3-deploy-sample01-0.0.1"
+    chart: "jx3-deploy-sample01-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx-staging
 spec:
