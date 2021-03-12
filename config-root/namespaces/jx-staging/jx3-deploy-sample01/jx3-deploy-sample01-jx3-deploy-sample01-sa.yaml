@@ -1,0 +1,8 @@
+# Source: jx3-deploy-sample01/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jx3-deploy-sample01-jx3-deploy-sample01
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
