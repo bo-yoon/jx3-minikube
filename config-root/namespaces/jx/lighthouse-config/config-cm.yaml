@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        bo-yoon/jx3-deploy-sample01: true
         bo-yoon/jx3-minikube: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        bo-yoon/jx3-deploy-sample01: merge
         bo-yoon/jx3-minikube: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - bo-yoon/jx3-minikube
+        - bo-yoon/jx3-deploy-sample01
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - bo-yoon/jx3-minikube
+        - bo-yoon/jx3-deploy-sample01
       target_url: http://dashboard-jx.192.168.64.10.nip.io
 kind: ConfigMap
 metadata:
