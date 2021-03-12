@@ -16,4 +16,4 @@ spec:
               serviceName: hook
               servicePort: 80
             path: "/hook"
-      host: tidy-turtle-49.loca.lt
+      host: fuzzy-quail-28.loca.lt
