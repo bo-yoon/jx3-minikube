@@ -1,0 +1,49 @@
+# Source: jx3-deploy-sample01/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-12T02:21:03Z"
+  deletionTimestamp: null
+  name: 'jx3-deploy-sample01-0.0.1'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: 9362174506cc58b2f35c64ab5178e05dd5400c64
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 6cf43b1275fb892078cc6c8b3f1ca256abcade1e
+    - author:
+        email: kwonby@mz.co.kr
+        name: kwonby
+      branch: master
+      committer:
+        email: kwonby@mz.co.kr
+        name: kwonby
+      message: |
+        chore: Jenkins X build pack
+      sha: 0ea621bd35b6317948cdf378676205bfa0ee5390
+  gitHttpUrl: https://github.com/bo-yoon/jx3-deploy-sample01
+  gitOwner: bo-yoon
+  gitRepository: jx3-deploy-sample01
+  name: 'jx3-deploy-sample01'
+  releaseNotesURL: https://github.com/bo-yoon/jx3-deploy-sample01/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
